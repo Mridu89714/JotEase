@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dashboard</h1>
+        
+        <!-- To-Do List -->
+        <section class="todo-section">
+            <h2>To-Do List</h2>
+            <input type="text" id="todo-input" placeholder="Add a new task" />
+            <button onclick="addTodo()">Add</button>
+            <ul id="todo-list"></ul>
+        </section>
+        
+        <!-- Notes Section -->
+        <section class="notes-section">
+            <h2>Notes</h2>
+            <textarea id="notes-input" placeholder="Write your notes here..."></textarea>
+            <button onclick="saveNote()">Save Note</button>
+            <div id="notes-list"></div>
+        </section>
+
+        <!-- Speech to text Section-->
+        <section id="translation">
+            <h2>Speech</h2>
+            
+            <!-- Language selection dropdown -->
+            <label for="language">Choose a language:</label>
+            <select id="language" name="language">
+                <option value="en">English</option>
+                <option value="ta">Tamil</option>
+                <option value="hi">Hindi</option>
+            </select>
+            
+            <!-- Text area for input -->
+            <div>
+                <textarea id="result" rows="5" cols="50" placeholder="Text will be displayed here..."></textarea>
+            </div>
+            
+            <!-- Buttons for recording -->
+            <div>
+                <button id="start">Start Recording</button>
+                <button id="stop">Stop Recording</button>
+                <button id="download" disabled>Download Text</button>
+            </div>
+        </section>  
+    </div>
+    <script src="dashboard.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
