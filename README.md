@@ -1,9 +1,3 @@
-# JotEase
-
-Here’s a structured **GitHub README** file based on the content from the presentation for the **Jot Ease** note-making app:
-
----
-
 # Jot Ease: Streamlining Your Note-Taking Journey
 
 **Jot Ease** is a revolutionary note-making app designed to transform the way you capture, organize, and access your ideas and information. It provides a streamlined solution for managing thoughts, reducing disorganization, and enhancing productivity across multiple devices.
