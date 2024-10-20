@@ -36,8 +36,7 @@ The lack of an efficient note-making app leaves individuals grappling with disor
 The following gaps in existing note-taking solutions were identified and addressed in Jot Ease:
 
 1. **User Experience & Interface Design**: Current note-taking apps often lack easy-to-use screens and designs that prioritize user needs.
-2. **Multimedia Integration**: Most note-making apps do not easily work with different file formats, limiting flexibility.
-3. **Cognitive Support**: Few tools assist with memory, organization, and information processing to help users be more productive.
+2. **Cognitive Support**: Few tools assist with memory, organization, and information processing to help users be more productive.
 
 ---
 
@@ -77,13 +76,7 @@ Thank you for your time and consideration. We look forward to discussing the **J
 
 ---
 
-Feel free to reach out for more details, suggestions, or collaborations!
-
----
-
-### Installation Instructions (Optional)
-
-If you want to include installation or usage instructions:
+### Installation Instructions 
 
 ```bash
 # Clone the repository
@@ -98,5 +91,5 @@ npm install
 # Run the app (add specific run instructions)
 npm start
 ```
-
----
+## Note
+This Webapp is still under development. So there might be slight changes in what we have mentioned in this.
